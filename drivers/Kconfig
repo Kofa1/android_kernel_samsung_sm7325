@@ -255,10 +255,13 @@ source "drivers/sti/common/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 source "drivers/battery/fuelgauge/sm5714_fuelgauge/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 source "drivers/input/input_boost/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 source "drivers/security/samsung/tzic/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
+<<<<<<< HEAD
 if SEC_A52SXQ_PROJECT
 source "drivers/kperfmon/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 endif
 source "drivers/perf_mgr/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
+=======
+>>>>>>> 3365a3f4ecfd (drivers: Nuke kperfmon)
 source "drivers/input/sec_input/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 source "drivers/usb/common/vbus_notifier/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 source "drivers/fingerprint/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
